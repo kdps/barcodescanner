@@ -56,6 +56,7 @@ public class CameraUtils {
                     reurn false;
                 }
             } catch (Exception e) {
+                return false;
             }
         } else {
             return false;
